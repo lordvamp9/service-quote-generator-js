@@ -8,11 +8,12 @@
 
 Una aplicación web moderna y responsiva diseñada para proporcionar estimaciones instantáneas de servicios para agencias digitales y freelancers. Migrada y optimizada a estándares actuales.
 
-**Demo:** [Inserta tu link de Netlify aquí]
+**Demo:** 
+[](url)
 
 ---
 
-## 📋 Características y Funciones
+##  Características y Funciones
 
 - **Calculadora Interactiva de Cotizaciones**: Un flujo guiado de 3 pasos (Servicios, Add-ons y Resultados) para estimar los costos de un proyecto de manera intuitiva.
 - **Precios Dinámicos**: Los cálculos y actualizaciones se realizan en tiempo real en la interfaz usando el estado de React.
@@ -21,13 +22,13 @@ Una aplicación web moderna y responsiva diseñada para proporcionar estimacione
 - **UI Premium y Moderna**: Estética mejorada con *glassmorphism*, sombras dinámicas, colores vibrantes y micro-interacciones (hover effects), manteniendo una base limpia.
 - **SPA (Single Page Application)**: Navegación instantánea sin recarga de página gracias a `react-router-dom`.
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 - **Frontend:** React, Vite, React Router DOM, React Icons.
 - **Backend:** Node.js, Express, CORS.
 - **Estilos:** Vanilla CSS (Modernizado), Bootstrap 5.
 
-## 🚀 Instalación y Uso Local
+##  Instalación y Uso Local
 
 Para correr este proyecto en tu entorno local:
 
@@ -51,7 +52,7 @@ Para correr este proyecto en tu entorno local:
    npm run dev
    ```
 
-## 📦 Construcción para Producción (Deploy)
+##  Construcción para Producción (Deploy)
 
 Para generar la carpeta `dist` lista para subir a Netlify, Vercel, o cualquier otro hosting estático:
 
@@ -59,7 +60,7 @@ Para generar la carpeta `dist` lista para subir a Netlify, Vercel, o cualquier o
 npm run build
 ```
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 - `src/`: Código fuente de la aplicación React.
   - `components/`: Componentes reutilizables (Navbar, Footer, QuoteCalculator).
@@ -67,9 +68,9 @@ npm run build
 - `server/`: Servidor Express para simular la recepción del formulario.
 - `_old_html/`: Copia de seguridad de la versión inicial en HTML estático.
 
-## 🏷️ Tópicos
+##  Tópicos
 `react`, `nodejs`, `vite`, `quote-calculator`, `frontend-development`, `spa`, `bootstrap5`, `modern-ui`
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto está bajo la Licencia **MIT**. Eres libre de utilizarlo para proyectos personales y comerciales. (Ver archivo LICENSE para más detalles).
