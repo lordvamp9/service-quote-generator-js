@@ -6,71 +6,70 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
 
-Una aplicación web moderna y responsiva diseñada para proporcionar estimaciones instantáneas de servicios para agencias digitales y freelancers. Migrada y optimizada a estándares actuales.
+A modern and responsive web application designed to provide instant service estimations for digital agencies and freelancers. Migrated and optimized to current standards.
 
-**Demo:** 
-[vamp-quote.netlify.app](url)
+**Demo:** [vamp-quote.netlify.app](https://vamp-quote.netlify.app)
 
 ---
 
-##  Características y Funciones
+## Features and Functions
 
-- **Calculadora Interactiva de Cotizaciones**: Un flujo guiado de 3 pasos (Servicios, Add-ons y Resultados) para estimar los costos de un proyecto de manera intuitiva.
-- **Precios Dinámicos**: Los cálculos y actualizaciones se realizan en tiempo real en la interfaz usando el estado de React.
-- **Backend Simulado (API)**: Incluye un servidor Node.js (Express) preparado para recibir y procesar las peticiones del formulario.
-- **Diseño Responsivo (Mobile-First)**: Interfaz fluida y completamente optimizada para móviles, tablets y escritorio.
-- **UI Premium y Moderna**: Estética mejorada con *glassmorphism*, sombras dinámicas, colores vibrantes y micro-interacciones (hover effects), manteniendo una base limpia.
-- **SPA (Single Page Application)**: Navegación instantánea sin recarga de página gracias a `react-router-dom`.
+- **Interactive Quote Calculator**: An intuitive 3-step guided flow (Services, Add-ons, and Results) to estimate project costs.
+- **Dynamic Pricing**: Calculations and updates are performed in real-time in the interface using React state.
+- **Simulated Backend (API)**: Includes a Node.js (Express) server prepared to receive and process form submissions.
+- **Responsive Design (Mobile-First)**: Fluid interface fully optimized for mobile, tablet, and desktop.
+- **Premium and Modern UI**: Enhanced aesthetics featuring *glassmorphism*, dynamic shadows, vibrant colors, and micro-interactions (hover effects), while maintaining a clean baseline.
+- **SPA (Single Page Application)**: Instant navigation without page reload thanks to `react-router-dom`.
 
-##  Tecnologías Utilizadas
+## Technologies Used
 
 - **Frontend:** React, Vite, React Router DOM, React Icons.
 - **Backend:** Node.js, Express, CORS.
-- **Estilos:** Vanilla CSS (Modernizado), Bootstrap 5.
+- **Styles:** Vanilla CSS (Modernized), Bootstrap 5.
 
-##  Instalación y Uso Local
+## Installation and Local Usage
 
-Para correr este proyecto en tu entorno local:
+To run this project in your local environment:
 
-1. **Clona el repositorio**
-2. **Instala las dependencias del frontend**
+1. **Clone the repository**
+2. **Install frontend dependencies**
    ```bash
    npm install
    ```
-3. **Instala las dependencias del backend**
+3. **Install backend dependencies**
    ```bash
    cd server
    npm install
    ```
-4. **Ejecuta el servidor Backend** (En una terminal)
+4. **Run the backend server** (In a terminal)
    ```bash
    cd server
    npm start
    ```
-5. **Ejecuta el servidor de desarrollo Frontend** (En otra terminal)
+5. **Run the frontend development server** (In another terminal)
    ```bash
    npm run dev
    ```
 
-##  Construcción para Producción (Deploy)
+## Production Build (Deploy)
 
-Para generar la carpeta `dist` lista para subir a Netlify, Vercel, o cualquier otro hosting estático:
+To generate the `dist` folder ready to upload to Netlify, Vercel, or any other static hosting:
 
 ```bash
 npm run build
 ```
 
-##  Estructura del Proyecto
+## Project Structure
 
-- `src/`: Código fuente de la aplicación React.
-  - `components/`: Componentes reutilizables (Navbar, Footer, QuoteCalculator).
-  - `pages/`: Vistas de la aplicación (Home, About, Services, Contact).
-- `server/`: Servidor Express para simular la recepción del formulario.
-- `_old_html/`: Copia de seguridad de la versión inicial en HTML estático.
+- `src/`: Source code of the React application.
+  - `components/`: Reusable components (Navbar, Footer, QuoteCalculator).
+  - `pages/`: Application views (Home, About, Services, Contact).
+- `server/`: Express server to simulate form submissions.
+- `_old_html/`: Backup of the initial static HTML version.
 
-##  Tópicos
+## Topics
 `react`, `nodejs`, `vite`, `quote-calculator`, `frontend-development`, `spa`, `bootstrap5`, `modern-ui`
 
-##  Licencia
+## License
 
-Este proyecto está bajo la Licencia **MIT**. Eres libre de utilizarlo para proyectos personales y comerciales. (Ver archivo LICENSE para más detalles).
+This project is under the **MIT** License. You are free to use it for personal and commercial projects. (See LICENSE file for details).
